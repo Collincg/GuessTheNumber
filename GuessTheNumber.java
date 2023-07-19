@@ -13,7 +13,6 @@ public class GuessTheNumber {
 
         int K = 5;
         int targetNumber = 1 + (int)(100 * Math.random());
-        System.out.println(targetNumber); // delete for final draft
         
         double userGuess;
         int i;
