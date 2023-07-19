@@ -13,16 +13,16 @@ public class GuessTheNumber {
 
         int K = 5;
         int targetNumber = 1 + (int)(100 * Math.random());
-        System.out.println(targetNumber);
+        System.out.println(targetNumber); // delete for final draft
         
-        int userGuess;
+        double userGuess;
         int i;
         System.out.println("Guess the random number between 1 and 100 within 5 attempts.");
 
         for (i = 0; i < K; i++){
 
             System.out.print("Enter your guess: ");
-            userGuess = scanner.nextInt();
+            userGuess = scanner.nextDouble();
 
             if (userGuess == targetNumber){
                 System.out.println("Congratulations, you guessed the number in " + (i+1) + " tries");
@@ -46,4 +46,4 @@ public class GuessTheNumber {
     }
     
 // check for non-numeric inputs
-// deal with non-integer inputs
+
