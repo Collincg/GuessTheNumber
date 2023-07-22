@@ -44,5 +44,5 @@ public class GuessTheNumber {
         
     }
     
-// check for non-numeric inputs
+
 
