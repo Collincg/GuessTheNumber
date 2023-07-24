@@ -41,7 +41,7 @@ public class GuessTheNumber {
             System.out.println("You used all of your guesses. The number was " + targetNumber + ".");
         }
         
-        
+        // hi today is one of the greatest days of my life
     }
     
 
